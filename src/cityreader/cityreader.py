@@ -25,7 +25,7 @@ class City:
         self.lon = lon
 
     def __str__(self):
-        print(f'City: {self.name},{self.lat}, {self.lon}')
+        return f'City: {self.name},{self.lat}, {self.lon}'
 
     cities = []
 
