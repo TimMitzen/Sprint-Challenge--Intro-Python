@@ -17,14 +17,14 @@
 #     pass
 #
 # Put a comment noting which class is the base class
-class Vehicle:
+class Vehicle():
     pass
 #base
 
 class FlightVehicle(Vehicle):
     pass
 
-class StarShip(Vehicle):
+class Starship(FlightVehicle):
     pass
 
 class Airplane(FlightVehicle):
